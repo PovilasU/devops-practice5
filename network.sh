@@ -1,2 +1,3 @@
 #! /bin/bash
-sudo docker network create my_network
+sudo docker network create kotik__network
+
