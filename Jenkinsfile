@@ -7,11 +7,11 @@ pipeline{
                     sh "./scripts/network.sh"
                 }
             }
-	 /*   stage('Test service-1, 2, 3 and 4'){
+	    stage('Test service-1, 2, 3 and 4'){
 		steps {
 		    sh "./scripts/run_tests.sh"
 		}
-	    } */
+	    } 
             stage('Build Service 1, 2, 3 and 4'){
                 steps{
                     sh "./scripts/build.sh"
