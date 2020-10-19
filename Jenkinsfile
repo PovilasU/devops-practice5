@@ -21,7 +21,8 @@ pipeline{
                     sh "./scripts/build.sh"
                 }
             }
-	   stage('Push & Pull Service 1'){
+		// steps push, pull and run
+	   stage('Push & Pull Service 1 '){
                 steps{
                     sh "./service-1/push.sh"
                 }
