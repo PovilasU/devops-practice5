@@ -28,10 +28,10 @@ pipeline{
 		    sh "./scripts/pull_services.sh"
                 }
             }
-	  /*   stage('Run Service 1'){
+	     stage('Run Service 1, 2, 3 and 4'){
                 steps{
-                    sh "./service-1/run.sh"
+                    sh "./scripts/run_services.sh"
                 }
-            } */
+            } 
         }    
 }
