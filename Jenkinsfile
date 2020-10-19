@@ -18,7 +18,7 @@ pipeline{
                 }
             }
 		// steps push, pull and run
-	   stage('Push & Pull Service 1 '){
+	   stage('Push Service 1 '){
                 steps{
                     sh "./service-1/push.sh"
                 }
