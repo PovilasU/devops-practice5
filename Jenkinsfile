@@ -20,7 +20,7 @@ pipeline{
 		// steps push, pull and run
 	   stage('Push Service 1 '){
                 steps{
-                    sh "./service-1/push.sh"
+                   // sh "./service-1/push.sh"
 		    sh "./scripts/push_services.sh"
                 }
             }
