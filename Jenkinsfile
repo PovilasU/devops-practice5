@@ -11,8 +11,8 @@ pipeline{
 		steps {
 		    sh './service-1/test.sh'
 		    sh './service-2/test.sh'
-		    //sh './service-2/test.sh'
-		    //sh './service-2/test.sh'
+		    sh './service-3/test.sh'
+		    sh './service-4/test.sh'
 		}
 	    }
             stage('Build Service 1, Service 2, Service 3 and Service 4'){
