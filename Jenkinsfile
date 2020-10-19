@@ -12,23 +12,23 @@ pipeline{
 		    sh "./scripts/run_tests.sh"
 		}
 	    } */
-            stage('Build Service 1, 2, 3 and 4'){
+            stage('Build Service containers 1, 2, 3 and 4'){
                 steps{
                     sh "./scripts/build_services.sh"
                 }
             }
 		// steps push, pull and run
-	   stage('Push Service 1, 2, 3 and 4'){
+	   stage('Push Service containers 1, 2, 3 and 4'){
                 steps{                   
 		    sh "./scripts/push_services.sh"
                 }
             }
-	   stage('Pull Service 1, 2, 3 and 4'){
+	   stage('Pull Service containers 1, 2, 3 and 4'){
                 steps{                   
 		    sh "./scripts/pull_services.sh"
                 }
             }
-	     stage('Run Service 1, 2, 3 and 4'){
+	     stage('Run Service containers 1, 2, 3 and 4'){
                 steps{
                     sh "./scripts/run_services.sh"
                 }
