@@ -3,5 +3,5 @@
 #sudo docker pull localhost:8082/service_1 
 
 sudo docker push localhost:8082/service_1:${BUILD_NUMBER} 
-sudo docker pull localhost:8082/service_1:${BUILD_NUMBER} 
+#sudo docker pull localhost:8082/service_1:${BUILD_NUMBER} 
 
