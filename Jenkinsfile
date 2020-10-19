@@ -7,15 +7,16 @@ pipeline{
                     sh "./scripts/network.sh"
                 }
             }
-	    stage('Test service-1,2,3 and 4'){
+	    stage('Test service-1, 2, 3 and 4'){
 		steps {
-		    sh './service-1/test.sh'
-		    sh './service-2/test.sh'
-		    sh './service-3/test.sh'
-		    sh './service-4/test.sh'
+		    sh "./scripts/network.sh"
+		    //sh './service-1/test.sh'
+		    //sh './service-2/test.sh'
+		    //sh './service-3/test.sh'
+		    //sh './service-4/test.sh'
 		}
 	    }
-            stage('Build Service 1, Service 2, Service 3 and Service 4'){
+            stage('Build Service 1, 2, 3 and 4'){
                 steps{
                     sh "./scripts/build.sh"
                 }
