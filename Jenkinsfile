@@ -21,12 +21,12 @@ pipeline{
                     sh "./scripts/build.sh"
                 }
             }
-	   /* stage('Push & Pull Service 1'){
+	   stage('Push & Pull Service 1'){
                 steps{
                     sh "./service-1/push.sh"
                 }
             }
-	    stage('Run Service 1'){
+	  /*   stage('Run Service 1'){
                 steps{
                     sh "./service-1/run.sh"
                 }
