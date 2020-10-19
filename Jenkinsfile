@@ -18,10 +18,14 @@ pipeline{
                 }
             }
 		// steps push, pull and run
-	   stage('Push Service 1 '){
-                steps{
-                   // sh "./service-1/push.sh"
+	   stage('Push Service 1, 2, 3 and 4'){
+                steps{                   
 		    sh "./scripts/push_services.sh"
+                }
+            },
+	   stage('Pull Service 1, 2, 3 and 4'){
+                steps{                   
+		    sh "./scripts/pull_services.sh"
                 }
             }
 	  /*   stage('Run Service 1'){
