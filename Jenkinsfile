@@ -7,7 +7,7 @@ pipeline{
                     sh "./scripts/network.sh"
                 }
             }
-            stage('Build Service 1, Service 2'){
+            stage('Build Service 1, Service 2, Service 3 and Service 4'){
                 steps{
                     sh "./scripts/build.sh"
                 }
