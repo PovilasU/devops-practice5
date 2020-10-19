@@ -22,7 +22,7 @@ pipeline{
                 steps{                   
 		    sh "./scripts/push_services.sh"
                 }
-            },
+            }
 	   stage('Pull Service 1, 2, 3 and 4'){
                 steps{                   
 		    sh "./scripts/pull_services.sh"
