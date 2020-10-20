@@ -4,3 +4,6 @@ pip install -U docker-compose
 
 #step2 Create docker ocmpose file at any location on your system
 #docker-compose.yml
+
+#step3 check docker-compose validity
+docker-compose config
