@@ -4,5 +4,5 @@ WORKDIR /home/app
 COPY requirements.txt /home/app
 RUN pip3 install -r requirements.txt
 COPY . /home/app/
-EXPOSE 5000
+EXPOSE 5001
 ENTRYPOINT ["python3", "app.py"]
