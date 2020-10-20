@@ -16,4 +16,5 @@ docker-compose config
 
 
 #Step 4 to isntall dependencies create playbook.yaml and run it in terminal
+#to check if correct yaml sytax goto this site http://yaml-online-parser.appspot.com/
 #sudo ansible-playbook playbook.yaml
