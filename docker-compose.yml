@@ -1,7 +1,7 @@
   
 version: '3.7'
 services:
-  service1:      
+  service_1:      
     build: ./service-1
     image: localhost:8082/service_1
     container_name: service_1
