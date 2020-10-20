@@ -8,6 +8,6 @@ services:
     - target: 5000
       published: 5000
    #stretch goals
-   web:
-     image: nginx
+   #web:
+     #image: nginx
    
