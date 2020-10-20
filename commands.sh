@@ -13,3 +13,7 @@ docker-compose config
 
 #sudo snap install docker          # version 19.03.11, or
 #sudo apt  install docker-compose
+
+
+#Step 4 to isntall dependencies create playbook.yaml and run it in terminal
+#sudo ansible-playbook playbook.yaml
