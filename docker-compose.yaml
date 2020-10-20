@@ -4,9 +4,9 @@ services:
     build: ./service-1
     image: localhost:8082/service_1
     container_name: service_1
-    ports: 
-    - target: 5000
-      published: 5000
+    #ports: 
+    #- target: 5000
+      #published: 5000
    #stretch goals
    web:
      image: nginx
