@@ -1,0 +1,10 @@
+  
+version: '3.7'
+services:
+  service1:      
+    build: ./service-1
+    image: localhost:8082/service_1
+    container_name: service_1
+    ports: 
+    - target: 5000
+      published: 5000
